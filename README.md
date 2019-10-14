@@ -3,8 +3,7 @@
 ##### The calculator waits for user input and expects to receive strings containing whitespace separated lists of numbers and operators.
 ##### The ‘undo’ operator undoes the previous operation. “undo undo” will undo the previo us two operations.
 ##### sqrt performs a square root on the top item from the stack.
-##### The ‘+’, ‘-’, ‘*’, ‘/’ operators perform addition, subtraction, multiplication and division respectively on the top two items from
-the stack.
+##### The ‘+’, ‘-’, ‘*’, ‘/’ operators perform addition, subtraction, multiplication and division respectively on the top two items from the stack.
 ##### After processing an input string, the calculator displays the current contents of the stack as a space-separated list.
 
 ## Build
