@@ -1,0 +1,22 @@
+plugins {
+	id 'org.springframework.boot' version '2.1.9.RELEASE'
+	id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+	id 'java'
+	id 'eclipse'
+	id 'idea'
+}
+
+group = 'com.airwallex'
+version = '0.0.2'
+sourceCompatibility = '1.8'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter'
+	implementation 'org.springframework.shell:spring-shell-starter:2.0.1.RELEASE'
+
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}

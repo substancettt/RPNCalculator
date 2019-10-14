@@ -1,0 +1,9 @@
+# logging
+logging:
+  pattern:
+    console: "%date{yyyy-MM-dd HH:mm:ss.SSS}[%level][%thread]-%msg%n"
+  level:
+    root: warn
+
+application:
+    version: 0.0.2
