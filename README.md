@@ -10,7 +10,7 @@ the stack.
 ## Build
 ##### JDK1.8+ is required.
 ### Windows:
-####3    gradlew.bat clean build
+#####    gradlew.bat clean build
 ### UNIX
 #####    ./gradlew clean build
 
